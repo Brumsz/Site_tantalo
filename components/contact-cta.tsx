@@ -32,7 +32,6 @@ export default function ContactCTA() {
       id="contact"
       ref={sectionRef}
       className="py-48 md:py-56 px-6 md:px-12"
-      // Fundo Sólido #51594D para receber o degradê da seção anterior
       style={{
         backgroundColor: "#51594D",
       }}
@@ -52,6 +51,20 @@ export default function ContactCTA() {
             Entre em contato para saber mais
           </p>
         </div>
+
+        {/* 👇 NOVO: CTA Principal Typeform */}
+        <a
+          href="https://form.typeform.com/to/KjHq9oF2" // 👈 SUBSTITUA
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fade-in-element delay-300 inline-flex items-center gap-3 px-12 py-6 rounded-xl font-sans font-bold text-xl uppercase tracking-wide transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+          style={{ backgroundColor: '#BDBC9B', color: '#403128' }}
+        >
+          Garantir Minha Vaga
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
 
         <div className="fade-in-element delay-400 flex flex-col sm:flex-row gap-6 justify-center items-center">
           <a
@@ -78,7 +91,7 @@ export default function ContactCTA() {
             WhatsApp
           </a>
           <a
-            href="https://instagram.com/"
+            href="https://www.instagram.com/tantalosuplice/"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center justify-center gap-3 h-14 px-8 rounded-lg font-sans text-[16px] font-semibold tracking-wider uppercase transition-all duration-300 w-full sm:w-auto"

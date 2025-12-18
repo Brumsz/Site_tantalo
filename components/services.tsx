@@ -151,6 +151,21 @@ export default function Services() {
             </div>
           ))}
         </div>
+        {/* 👇 NOVO: CTA Final Services */}
+        <div className="fade-in-element delay-800 text-center mt-16">
+          <a
+            href="https://form.typeform.com/to/KjHq9oF2" // 👈 SUBSTITUA
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 px-10 py-5 rounded-xl font-sans font-bold text-lg uppercase tracking-wide transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+            style={{ backgroundColor: '#BDBC9B', color: '#403128' }}
+          >
+            Fechar Minha Vaga
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
       </div>
       {/* O DIV DE DEGRADE FOI REMOVIDO DAQUI */}
     </section>
